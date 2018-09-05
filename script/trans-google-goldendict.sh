@@ -1,6 +1,6 @@
 #!/bin/bash
-#This script will translate only english sentence to Chinese using Google Translate, I use this script in Goldendict so if i want to translate Chinese to English using ChineseToEnglish dictionary, Google Translate Resault won't show up.
-
+# This script translate English to Chinese using Google Translate.
+# I use it in Goldendict. The benefit of using this script rather then using trans directly is that if there is no Englist word in the desire translate text, it'll pass the trans operation, so you won't see a blank result if you say waht thans Chinese to English.
 if [ $# -eq 1 ]
 then
 	if [ $(echo "$1" | grep -c -i '[a-zA-z]') -gt 0 ]
