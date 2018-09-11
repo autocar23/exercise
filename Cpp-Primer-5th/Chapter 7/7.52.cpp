@@ -1,1 +1,0 @@
-//978-0590353403被转换成string赋予item对象，25、15.99分别被赋予对象的units_sold和revenue成员
